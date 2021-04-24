@@ -18,4 +18,7 @@ public class VowelCounterTest {
     public void shouldCountAllVowel(){
         assertEquals(5, new VowelCounter().count("aeiou"));
     }
+    public void shouldCountFourVowel(){
+        assertEquals(4, new VowelCounter().count("aeio"));
+    }
 }
